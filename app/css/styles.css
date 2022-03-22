@@ -1,0 +1,68 @@
+h1 {font-family: "Lucida Console", "Courier New", monospace; text-align: center;}
+p1 {font-family: "Lucida Console", "Courier New", monospace; text-align: center;}
+h2 {font-family: "Lucida Console", "Courier New", monospace; text-align: center;}
+ul {font-family: "Lucida Console", "Courier New", monospace;}
+img {display: block;margin-left: auto;margin-right: auto;}
+body {background-color: #403f3d;}
+
+p {
+font-family: "Lucida Console", "Courier New", monospace;
+text-align: center;
+color: #ededed;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+  border-radius: 100px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding: 5px 24px;
+  transition-duration: 0.2s;
+  
+  background-color: #403f3d;
+  color: #ffb624;
+  border: 2px solid #ffb624;
+}
+button:hover {
+  background-color: #ffb624;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button:active {
+  background-color: #29ff82;
+  border: 2px solid #403f3d;
+  color: rgba(255, 255, 255, 1);
+}
+
+ul {
+  text-align: center;
+  list-style: inside;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #ededed;
+}
+
+.mypfp {
+  border-radius: 100px;
+}
+.myname {
+color: #ffb624;
+}
+.divider {
+  color: #d6d6d6;
+}
+.cushead {
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  color: #ffb624;
+}
+.playlist1 {
+  border-radius: 12px;
+  border: 2px solid #0059ff;
+  transition-duration: 0.2s;
+}
+.playlist1:hover {
+  border: 5px solid #0059ff;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
