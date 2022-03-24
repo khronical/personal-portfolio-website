@@ -57,12 +57,14 @@ color: #ffb624;
   text-align: center;
   color: #ffb624;
 }
-.playlist1 {
+.playlistcard {
+  padding: 15px;
+  float: left;
   border-radius: 12px;
   border: 2px solid #0059ff;
   transition-duration: 0.2s;
 }
-.playlist1:hover {
+.playlistcard:hover {
   border: 5px solid #0059ff;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
