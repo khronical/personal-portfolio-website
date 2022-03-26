@@ -32,6 +32,16 @@ a:active {
   text-decoration: none;
 }
 
+.innerdiv {
+  /*border: 1px solid rgb(255, 255, 255);*/
+  position: absolute;
+  top: 90px;
+  left: 65px;
+
+  width: 1725px;
+  height: 900px;
+}
+
 .navbar {
   color: #8b897f;
   font-family: 'Be Vietnam Pro', sans-serif;
@@ -42,22 +52,174 @@ a:active {
   left: 65px;
   width: 500px;
 }
-
-.tempwbr {
-  color: #e2b714;
-  font-family: 'Be Vietnam Pro', sans-serif;
-  font-size: 50px;
-
-  text-align: center;
-}
 .tempwbrd {
   color: rgb(223, 223, 223);
   font-family: 'Be Vietnam Pro', sans-serif;
   text-align: center;
 }
-.spansk {
+#hellotext {
+  color: rgba(255, 255, 255, 0.726);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 25px;
+
+  text-align: center;
+  text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+#hellopt2 {
   color: rgb(255, 166, 0);
-  font-family: 'Space Mono', monospace;
+  font-family: 'Space Mono', sans-serif;
+  font-size: 30px;
+
+  text-align: center;
+  text-shadow: 2px 2px 2px rgb(255, 166, 0);
 }
 
-/* Haha Epic Change B) */
+#leftsection {
+  /*border: 1px solid rgb(255, 255, 255);*/
+
+  position: absolute;
+  top: 90px;
+  left: 65px;
+
+  width: 625px;
+  height: 800px;
+}
+#abtmehead {
+  color: rgb(255, 166, 0);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+#abtmemain {
+  color: rgb(207, 207, 207);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+#postssubsection {
+  /*border: 1px solid rgb(255, 255, 255);*/
+
+  position: absolute;
+  left: 170px;
+
+  width: 280px;
+  height: 300px;
+}
+#postshead {
+  color: rgb(255, 166, 0);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+#postsmain {
+  color: rgb(207, 207, 207);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+#rightsection {
+  /*border: 1px solid rgb(255, 255, 255);*/
+
+  position: absolute;
+  top: 90px;
+  right: 65px;
+
+  width: 625px;
+  height: 800px;
+}
+#featuredhead {
+  color: rgb(255, 166, 0);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+#featuredmain {
+  color: rgb(207, 207, 207);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+.PageLinks {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+#likeshead {
+  color: rgb(255, 166, 0);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+#likesmain {
+  color: rgb(207, 207, 207);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+#quotemain {
+  color: rgb(207, 207, 207);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+#changeloghead {
+  color: rgb(255, 166, 0);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+#changelogmain {
+  color: rgb(207, 207, 207);
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+#MainPFP {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 100px;
+  border: 2px dashed #e2b714;
+}
+
+#spotify {
+  border: 2px solid #14121a;
+  margin: 5px;
+  transition-duration: 0.4s;
+  border-radius: 100px;
+}
+#spotify:hover {
+  border: 2px solid #3eff68;
+}
+#instagram {
+  border: 2px solid #14121a;
+  margin: 5px;
+  transition-duration: 0.4s;
+  border-radius: 100px;
+}
+#instagram:hover {
+  border: 2px solid #ed63ff;
+}
+#github {
+  border: 2px solid #14121a;
+  margin: 5px;
+  transition-duration: 0.4s;
+  border-radius: 100px;
+}
+#github:hover {
+  border: 2px solid #e2b714;
+}
+#tiktok {
+  border: 2px solid #14121a;
+  margin: 5px;
+  transition-duration: 0.4s;
+  border-radius: 150px;
+}
+#tiktok:hover {
+  border: 2px solid #fd4141;
+}
