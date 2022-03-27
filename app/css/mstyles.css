@@ -33,13 +33,13 @@ body{
     }
 
     .innerdiv {
-    /*border: 1px solid rgb(255, 255, 255);*/
-    position: absolute;
-    top: 90px;
-    left: 65px;
+      /*border: 1px solid rgb(255, 255, 255);*/
+      position: absolute;
+      top: 9%;
+      left: 3.5%;
 
-    width: 1460px;
-    height: 900px;
+      width: 92.5%;
+      height: 90%;
     }
 
     .navbar {
@@ -59,21 +59,21 @@ body{
     }
 
     #musicdiv {
-    /*border: 1px solid white;*/
+    /*order: 1px solid white;*/
     position: absolute;
     top: 10px;
-    left: 300px;
-    height: 870px;
-    width: 800px;
+    left: 26%;
+    height: 95%;
+    width: 47%;
     }
 
     #musiccard {
     background-color: rgb(35, 36, 43);
     border: 2px solid rgb(35, 36, 43);
     border-radius: 10px;
-    height: 150px;
-    width: 800px;
-    margin-top: 10px;
+    height: 17%;
+    width: 99%;
+    margin-top: 1%;
     transition-duration: 0.4s;
     }
     #musiccard:hover {
@@ -82,21 +82,21 @@ body{
     #mcimg {
         border-radius: 10px;
         position: absolute;
-        top: 35px;
-        left: 20px;
+        top: 4%;
+        left: 4%;
     }
     #mchead {
         color: rgba(255, 255, 255, 0.719);
         position: absolute;
-        top: 15px;
-        left: 150px;
+        top: 1.75%;
+        left: 18%;
         font-family: 'Be Vietnam Pro', sans-serif;
     }
     #mcdesc {
         color: rgba(255, 255, 255, 0.568);
         position: absolute;
-        top: 50px;
-        left: 150px;
+        top: 5%;
+        left: 18%;
         font-family: 'Space Mono', sans-serif;
     }
 
@@ -104,8 +104,8 @@ body{
     background-color: rgb(35, 36, 43);
     border: 2px solid rgb(35, 36, 43);
     border-radius: 10px;
-    height: 150px;
-    width: 800px;
+    height: 17%;
+    width: 99%;
     margin-top: 10px;
     transition-duration: 0.4s;
     }
@@ -115,20 +115,20 @@ body{
     #mcimg2 {
         border-radius: 10px;
         position: absolute;
-        top: 195px;
-        left: 20px;
+        top: 22.5%;
+        left: 4%;
     }
     #mchead2 {
         color: rgba(255, 255, 255, 0.719);
         position: absolute;
-        top: 180px;
-        left: 150px;
+        top: 20%;
+        left: 18%;
         font-family: 'Be Vietnam Pro', sans-serif;
     }
     #mcdesc2 {
         color: rgba(255, 255, 255, 0.568);
         position: absolute;
-        top: 215px;
-        left: 150px;
+        top: 23.5%;
+        left: 18%;
         font-family: 'Space Mono', sans-serif;
     }
