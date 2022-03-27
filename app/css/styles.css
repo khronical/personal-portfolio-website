@@ -33,13 +33,13 @@ a:active {
 }
 
 .innerdiv {
-  /*border: 1px solid rgb(255, 255, 255);*/
+  border: 1px solid rgb(255, 255, 255);
   position: absolute;
-  top: 90px;
-  left: 65px;
+  top: 9%;
+  left: 3.5%;
 
-  width: 1725px;
-  height: 900px;
+  width: 92.5%;
+  height: 90%;
 }
 
 .navbar {
@@ -75,71 +75,68 @@ a:active {
 }
 
 #leftsection {
-  /*border: 1px solid rgb(255, 255, 255);*/
+  border: 1px solid rgb(255, 255, 255);
 
   position: absolute;
-  top: 90px;
-  left: 65px;
+  top: 9%;
+  left: 6%;
 
-  width: 625px;
-  height: 800px;
+  width: 30%;
+  height: 80%;
 }
 #abtmehead {
   color: rgb(255, 166, 0);
   font-family: 'Be Vietnam Pro', sans-serif;
-  font-size: 30px;
   text-align: center;
+  font-size: 200%;
 }
 #abtmemain {
   color: rgb(207, 207, 207);
   font-family: 'Be Vietnam Pro', sans-serif;
-  font-size: 25px;
   text-align: center;
+  font-size: 150%;
 }
 
 #postssubsection {
-  /*border: 1px solid rgb(255, 255, 255);*/
+  border: 1px solid rgb(255, 255, 255);
 
-  position: absolute;
-  left: 170px;
-
-  width: 280px;
-  height: 300px;
+  width: 100%;
+  height: 10%;
 }
 #postshead {
   color: rgb(255, 166, 0);
   font-family: 'Be Vietnam Pro', sans-serif;
-  font-size: 30px;
   text-align: center;
+  font-size: 200%;
 }
 #postsmain {
   color: rgb(207, 207, 207);
   font-family: 'Be Vietnam Pro', sans-serif;
-  font-size: 25px;
   text-align: center;
+  font-size: 150%;
 }
 
 #rightsection {
-  /*border: 1px solid rgb(255, 255, 255);*/
+  border: 1px solid rgb(255, 255, 255);
 
   position: absolute;
-  top: 90px;
-  right: 65px;
+  top: 9%;
+  right: 6%;
 
-  width: 625px;
-  height: 800px;
+  width: 30%;
+  height: 80%;
 }
 #featuredhead {
   color: rgb(255, 166, 0);
   font-family: 'Be Vietnam Pro', sans-serif;
-  font-size: 30px;
   text-align: center;
+  font-size: 200%;
 }
 #featuredmain {
   color: rgb(207, 207, 207);
   font-family: 'Be Vietnam Pro', sans-serif;
-  font-size: 25px;
   text-align: center;
+  font-size: 150%;
 }
 .PageLinks {
   text-align: center;
@@ -149,34 +146,34 @@ a:active {
 #likeshead {
   color: rgb(255, 166, 0);
   font-family: 'Be Vietnam Pro', sans-serif;
-  font-size: 30px;
   text-align: center;
+  font-size: 200%;
 }
 #likesmain {
   color: rgb(207, 207, 207);
   font-family: 'Be Vietnam Pro', sans-serif;
-  font-size: 20px;
   text-align: center;
+  font-size: 150%;
 }
 
 #quotemain {
   color: rgb(207, 207, 207);
   font-family: 'Be Vietnam Pro', sans-serif;
-  font-size: 25px;
   text-align: center;
+  font-size: 200%;
 }
 
 #changeloghead {
   color: rgb(255, 166, 0);
   font-family: 'Be Vietnam Pro', sans-serif;
-  font-size: 30px;
   text-align: center;
+  font-size: 200%;
 }
 #changelogmain {
   color: rgb(207, 207, 207);
   font-family: 'Be Vietnam Pro', sans-serif;
-  font-size: 20px;
   text-align: center;
+  font-size: 150%;
 }
 #MainPFP {
   display: block;
