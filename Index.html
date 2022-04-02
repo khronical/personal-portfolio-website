@@ -9,7 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  
+    <!-- Embed -->
     <meta content="Khronical's Cool Portfolio" property="og:title" />
     <meta content="What a strange place!" property="og:description" />
     <meta content="https://embed.com/this-is-the-site-url" property="og:url" />
@@ -17,53 +21,111 @@
     <meta content="#ff961f" data-react-helmet="true" name="theme-color" />
 
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="/app/css/styles.css">
+    <!--<link rel="stylesheet" href="/app/css/styles.css">-->
+    <style>
+      /* desktop:1200px;// col-xl
+      $laptop:1024px;// col-lg
+      $tablet:768px;// md
+      $phone:480px;// sm */
+
+      body{
+        background-color: #14121a;
+
+        @media screen and (max-width:1200px) and (min-width:768px){
+          background-color: white;
+        }
+      }
+
+      hr {
+        border: none;
+        border-top: 2px dashed rgb(219, 219, 219);
+      }
+
+      ul {
+        text-align: center;
+      }
+
+      li {
+        display: inline-block;
+      }
+
+      a {
+        color:rgb(208, 158, 255);
+        text-decoration: none;
+        transition-duration: 0.4s;
+      }
+      a:hover {
+        color:rgb(171, 81, 255);
+        text-decoration: underline;
+      }
+
+      #pfp {
+        border-radius: 100%;
+        border: 5px dashed rgb(147, 15, 255);
+        filter: blur(1.5px);
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+      }
+      #maindiv {
+        border: 2px solid white;
+        margin: auto;
+        width: 90%;
+        padding: 10px;
+        margin-top: 7%;
+      }
+      #pfptitle {
+        text-align: center;
+        color: rgb(173, 86, 255);
+        font-family: 'Space Mono', monospace;
+      }
+      .sectionheader {
+        color:rgb(173, 86, 255);
+        font-size: 30px;
+        font-family: 'Be Vietnam Pro', sans-serif;
+        text-align: center;
+      }
+      .sectiontext {
+        color: rgb(219, 219, 219);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     <div id="maindiv">
-      <img class="mypfp" src="https://cdn.discordapp.com/avatars/552659740627566614/534c9e203c67571c554215ba16a35971.png?size=4096" width="75" alt="">
-      <p class="navbar">/<a href="/">home</a>/</p>
-
-      <div class="innerdiv">
-        <h1 id="hellotext"><strong>Hi, I'm</strong></h1>
-        <h1 id="hellopt2">Khronical</h1>
-        <img id="MainPFP" src="https://cdn.discordapp.com/avatars/552659740627566614/534c9e203c67571c554215ba16a35971.png?size=4096" width="75" alt="">
-        <div id="leftsection">
-          <h2 id="abtmehead">About Me:</h2>
-          <p id="abtmemain">I'm pretty much a programmer who enjoys making shit in Visual Studio Code while listening to a ton of music. Most of my time is spent either watching Youtube videos, listening to music, procrastinating, or playing with my little sister. Then there's the minecraft server I have, it's gonna start on June, well atleast season 2. I have a terrible mental health really, I'm clingy, and I can be comforting.</p>
-          <hr>
-          <h2 id="postshead">Socials:</h2>
-          <div id="postssubsection">
-            <p id="postsmain">
-              <img id="github" src="https://iconsplace.com/wp-content/uploads/_icons/ffa500/256/png/github-icon-11-256.png" width="50" onclick="window.location.href='https://www.instagram.com/vomitpiggy/'" alt="">
-              <img id="spotify" src="https://cdn-icons-png.flaticon.com/512/174/174872.png" width="50" onclick="window.location.href='https://open.spotify.com/user/k3ix1nupsniyrqdxccxy08eah'" alt="">
-              <img id="instagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" width="50" onclick="window.location.href='https://www.instagram.com/vomitpiggy/'" alt="">
-              <img id="tiktok" src="https://www.freepnglogos.com/uploads/tik-tok-logo-png/tik-tok-tiktok-instagram-24.png" height="50" onclick="window.location.href='https://www.tiktok.com/@vomitpiggy'" alt="">
-            </p>
-          </div>
-        </div>
-        <div id="rightsection">
-          <h2 id="featuredhead">Featured Pages:</h2>
-          <p class="PageLinks">
-            <a href="/">home</a> <br>
-            <a href="/pages/music.html">music</a>
-          </p>
-          <hr>
-          <h2 id="likeshead">Things I like:</h2>
-          <p id="likesmain">
-          &#128247 Photography <br>
-          &#128187 Programming <br>
-          &#8987 Erased <br>
-          &#127911 Music<br>
-          &#128167 Water</p>
-          <hr>
-          <p id="quotemain"><a href="https://www.youtube.com/watch?v=OTTMQ6AECbc&t=889s">It all starts, and it all ends, with you.</a></p>
-          <hr>
-          <h2 id="changeloghead">Changelog:</h2>
-          <p id="changelogmain">v2.8.2<br>
-          -Mobile Support Step #3</p>
-        </div>
-      </div>
+      <img
+      src="https://cdn.discordapp.com/attachments/957241211243081728/959731699346997288/khronicalpfp.png?size=4096";
+      width="200";
+      id="pfp";>
+      <h1 id="pfptitle"><em>Khronical#1101</em></h1>
+      <hr>
+      <h2 class="sectionheader">About Me:</h2>
+      <p class="sectiontext">I'm pretty much a programmer who enjoys making shit in Visual Studio Code while listening to a ton of music. Most of my time is spent either watching Youtube videos, listening to music, procrastinating, or playing with my little sister. Then there's the minecraft server I have, it's gonna start on June, well atleast season 2. I have a terrible mental health really, I'm clingy, and I can be comforting.</p>
+      <hr>
+      <h2 class="sectionheader" class="centertext">Things I like:</h2>
+      <p class="sectiontext" class="centertext">
+        &#128247 Photography <br>
+        &#128187 Programming <br>
+        &#8987 Erased <br>
+        &#127911 Music<br>
+        &#128167 Water</p>
+      <hr>
+      <h2 class="sectionheader">Featured Pages:</h2>
+      <p class="sectiontext">
+        <a href="">music</a>
+      </p>
+      <hr>
+      <h2 class="sectionheader" class="centertext">Socials:</h2>
+      <p class="sectiontext">
+        <a href="">Instagram</a> <br>
+        <a href="">Tiktok</a> <br>
+        <a href="">Spotify</a> <br>
+        <a href="">Github</a> <br>
+      </p>
     </div>
   </body>
 </html>
