@@ -21,8 +21,81 @@
     <meta content="#ff961f" data-react-helmet="true" name="theme-color" />
 
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="/pages/homepage/css/styles.css">
+    <!--<link rel="stylesheet" href="/pages/homepage/css/styles.css">-->
     <style>
+            /* desktop:1200px;// col-xl
+      $laptop:1024px;// col-lg
+      $tablet:768px;// md
+      $phone:480px;// sm */
+
+      body{
+        background-color: #14121a;
+      }
+
+      hr {
+        border: none;
+        border-top: 2px dashed rgb(219, 219, 219);
+      }
+
+      ul {
+        text-align: center;
+      }
+
+      li {
+        display: inline-block;
+      }
+
+      a {
+        color:rgb(208, 158, 255);
+        text-decoration: none;
+        transition-duration: 0.4s;
+      }
+      a:hover {
+        color:rgb(171, 81, 255);
+        text-decoration: underline;
+      }
+
+      #pfp {
+        border-radius: 100%;
+        border: 5px dashed rgb(147, 15, 255);
+        filter: blur(1.5px);
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+      }
+      #maindiv {
+        border: 2px solid white;
+        margin: auto;
+        width: 90%;
+        padding: 10px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+      }
+      #pfptitle {
+        text-align: center;
+        color: rgb(173, 86, 255);
+        font-family: 'Space Mono', monospace;
+      }
+      .sectionheader {
+        color:rgb(173, 86, 255);
+        font-size: 30px;
+        font-family: 'Be Vietnam Pro', sans-serif;
+        text-align: center;
+      }
+      .sectiontext {
+        color: rgb(219, 219, 219);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        text-align: center;
+      }
+
+      @media (min-width: 850px) {
+        body {
+          color: blue;
+        }
+      }
     </style>
   </head>
   <body>
