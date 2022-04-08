@@ -41,7 +41,7 @@
         width: 20%;
       }
       #maindiv {
-        border: 2px solid white;
+        /*border: 2px solid white;*/
         margin: auto;
         width: 90%;
         padding: 10px;
@@ -64,10 +64,4 @@
         font-family: 'Open Sans', sans-serif;
         font-size: 20px;
         text-align: center;
-      }
-
-      @media all and (min-width: 850px) {
-        body {
-          color: blue;
-        }
       }
