@@ -4,75 +4,74 @@ $tablet:768px;// md
 $phone:480px;// sm */
 
 body{
-  background-color: #14121a;
+  background-color: #ffffff;
+}
+.title {
+  color: rgb(0, 0, 0);
+  font-size: 13vh;
+  margin: 0;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+.center {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-hr {
-  border: none;
-  border-top: 2px dashed rgb(219, 219, 219);
+.github {
+  transition-duration: 0.2s;
+}
+.github:hover {
+  fill: rgb(63, 63, 63);
+}
+.github::selection {
+  fill: rgb(63, 63, 63);
 }
 
-ul {
-  text-align: center;
-}
-
-li {
-  display: inline-block;
-}
-
-a {
-  color:rgb(208, 158, 255);
-  text-decoration: none;
+.twitter {
   transition-duration: 0.4s;
 }
-a:hover {
-  color:rgb(171, 81, 255);
-  text-decoration: underline;
+.twitter:hover {
+  fill: #009dff;
+}
+.twitter::selection {
+  fill: #009dff;
 }
 
-#pfp {
-  border-radius: 100%;
-  border: 5px dashed rgb(147, 15, 255);
-  filter: blur(1.5px);
+.twitch {
+  transition-duration: 0.4s;
+}
+.twitch:hover {
+  fill: #5900ff;
+}
+.twitch::selection {
+  fill: #5900ff;
+}
 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-}
-#maindiv {
-  /*border: 2px solid white;*/
-  margin: auto;
-  width: 90%;
-  padding: 10px;
-  margin-top: 1%;
-  margin-bottom: 1%;
-}
-#pfptitle {
+.socials {
+  font-size: 2vh;
   text-align: center;
-  color: rgb(173, 86, 255);
-  font-family: 'Space Mono', monospace;
-}
-.sectionheader {
-  color:rgb(173, 86, 255);
-  font-size: 30px;
-  font-family: 'Be Vietnam Pro', sans-serif;
-  text-align: center;
-}
-.sectiontext {
-  color: rgb(219, 219, 219);
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 300px;
+  -webkit-transition: fill 1s ease-in-out;
+  transition: fill 1s ease-in-out;
 }
 
-
-::-webkit-scrollbar {
-  width: 0.25rem;
-}
 ::-webkit-scrollbar-track {
   background: #14121a;
 }
 ::-webkit-scrollbar-thumb {
   background: rgb(88, 88, 88);;
+}
+::selection {
+  background: #000000; /* WebKit/Blink Browsers */
+  color:rgb(255, 255, 255);
 }
