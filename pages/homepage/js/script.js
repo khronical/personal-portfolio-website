@@ -25,7 +25,14 @@ const quotes =
     "Matthew Patthew am I right??",
     "NeoXephox on top 💪💪",
     "HELLOO NEO SAVANN :D",
-    "Santiago is fr a good person 💪💪"
+    "Santiago is fr a good person 💪💪",
+    "Do or do not, there is no try.",
+    "Kevin is such a bozo.",
+    "Go eat some tacos beaner.",
+    "Susana is a soccerplayer.",
+    "Kevin Betanzos is gay ngl.",
+    "Till another lifetime.",
+    "April 24th 2022, at 9 PM."
 ];
 
 function randomQuote() {
