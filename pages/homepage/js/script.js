@@ -24,7 +24,8 @@ const quotes =
     "YOO HELLO JUSTINN :D",
     "Matthew Patthew am I right??",
     "NeoXephox on top 💪💪",
-    "HELLOO NEO SAVANN :D"
+    "HELLOO NEO SAVANN :D",
+    "Santiago is fr a good person 💪💪"
 ];
 
 function randomQuote() {
