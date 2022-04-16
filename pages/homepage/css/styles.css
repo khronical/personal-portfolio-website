@@ -11,9 +11,26 @@ body{
   font-size: 13vh;
   margin: 0;
   font-family: 'Be Vietnam Pro', sans-serif;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+   -khtml-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#quote {
+  font-family: 'Roboto Mono', sans-serif;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+   -khtml-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .center {
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,16 +47,6 @@ body{
   fill: rgb(63, 63, 63);
 }
 
-.twitter {
-  transition-duration: 0.4s;
-}
-.twitter:hover {
-  fill: #009dff;
-}
-.twitter::selection {
-  fill: #009dff;
-}
-
 .twitch {
   transition-duration: 0.4s;
 }
@@ -48,6 +55,36 @@ body{
 }
 .twitch::selection {
   fill: #5900ff;
+}
+
+.instagram {
+  transition-duration: 0.4s;
+}
+.instagram:hover {
+  fill: #ff0080;
+}
+.instagram::selection {
+  fill: #ff0080;
+}
+
+.spotify {
+  transition-duration: 0.4s;
+}
+.spotify:hover {
+  fill: #00d95f;
+}
+.spotify::selection {
+  fill: #00d95f;
+}
+
+.tiktok {
+  transition-duration: 0.4s;
+}
+.tiktok:hover {
+  fill: #27cbfd;
+}
+.tiktok::selection {
+  fill: #27cbfd;
 }
 
 .socials {
