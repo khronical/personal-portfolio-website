@@ -9,7 +9,7 @@ const quotes =
     "I never drifted away, it was your excuse.",
     "Power always gets out the worse in you.",
     "Egg Grenade deserves all the negativity but death.",
-    "Ms. Bachelier is sexist without wanting to admit it.",
+    "I have severe procrastination.",
     "Homophobia doesn't involve anything with fear.",
     "Free Hong Kong",
     "L Russia, Ukraine on top 💪💪",
