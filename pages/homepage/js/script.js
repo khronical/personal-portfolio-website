@@ -31,13 +31,11 @@ const quotes =
     "Go eat some tacos beaner.",
     "Susana is a soccerplayer.",
     "Kevin Betanzos is gay ngl.",
-    "Till another lifetime.",
-    "April 24th 2022, at 9 PM."
+    "And to you, till another lifetime."
 ];
 
 function randomQuote() {
     let generatedquote = quotes[random = Math.floor(Math.random() * quotes.length)]
     document.getElementById("quote").textContent = '"'+generatedquote+'"'
 }
-
 randomQuote()
