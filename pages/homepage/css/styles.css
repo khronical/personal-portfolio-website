@@ -21,6 +21,7 @@ body{
 }
 #quote {
   font-family: 'Roboto Mono', sans-serif;
+  text-align: center;
 
   -webkit-touch-callout: none;
   -webkit-user-select: none;
