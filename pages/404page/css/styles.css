@@ -15,7 +15,7 @@ body.dark h2 {
     color: #ffffff;
 }
 body.dark .title {
-    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.86);
+    text-shadow: 1px 0px 14px #FFFFFF;
 }
   
 body.dark ::selection {
