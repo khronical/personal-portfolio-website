@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+  
+    transition: background 0.2s linear;
+}
+  
+/* --Dark Theme-- */
+body.dark {
+    background-color: black;
+}
+body.dark h1 {
+    color: #ffffff;
+}
+body.dark h2 {
+    color: #ffffff;
+}
+  
+body.dark ::selection {
+    background: #ffffff; /* WebKit/Blink Browsers */
+    color:rgb(0, 0, 0);
+}
+/* --Dark Theme-- */
+  
+hr {
+    border: none;
+}
+  
+.title {
+    font-size: 13vh;
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+  
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.center {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc {
+    font-family: 'Roboto Mono', sans-serif;
+    text-align: center;
+}
+
+::-webkit-scrollbar-track {
+    background: #14121a;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(88, 88, 88);;
+}
+::selection {
+    background: #000000; /* WebKit/Blink Browsers */
+    color:rgb(255, 255, 255);
+}
+  
