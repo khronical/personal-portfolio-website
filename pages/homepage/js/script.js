@@ -25,12 +25,17 @@ const quotes =
     "Matthew Patthew am I right??",
     "NeoXephox on top 💪💪",
     "HELLOO NEO SAVANN :D",
-    "Santiago is fr a good person 💪💪"
+    "Santiago is fr a good person 💪💪",
+    "Do or do not, there is no try.",
+    "Kevin is such a bozo.",
+    "Go eat some tacos beaner.",
+    "Susana is a soccerplayer.",
+    "Kevin is gay ngl.",
+    "And to you, till another lifetime."
 ];
 
 function randomQuote() {
     let generatedquote = quotes[random = Math.floor(Math.random() * quotes.length)]
     document.getElementById("quote").textContent = '"'+generatedquote+'"'
 }
-
 randomQuote()
