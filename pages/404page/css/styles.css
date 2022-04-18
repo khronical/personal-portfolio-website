@@ -24,6 +24,16 @@ body.dark ::selection {
 hr {
     border: none;
 }
+
+a {
+    color: rgb(111, 0, 255);
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+a:hover {
+    color: rgb(176, 116, 255);
+    text-decoration: underline;
+}
   
 .title {
     font-size: 13vh;
