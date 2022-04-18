@@ -4,10 +4,67 @@ $tablet:768px;// md
 $phone:480px;// sm */
 
 body{
-  background-color: #ffffff;
+  background-color: white;
+
+  transition: background 0.2s linear;
 }
+
+/* --Dark Theme-- */
+body.dark {
+  background-color: black;
+}
+body.dark h1 {
+  color: #ffffff;
+}
+body.dark h2 {
+  color: #ffffff;
+}
+body.dark .twitch {
+  transition-duration: 0.4s;
+  fill: #ffffff;
+}
+body.dark .twitch:hover {
+  fill: #5900ff;
+}
+body.dark .instagram {
+  transition-duration: 0.4s;
+  fill: #ffffff;
+}
+body.dark .instagram:hover {
+  fill: #ff0080;
+}
+body.dark .spotify {
+  transition-duration: 0.4s;
+  fill: #ffffff;
+}
+body.dark .spotify:hover {
+  fill: #00d95f;
+}
+body.dark .tiktok {
+  transition-duration: 0.4s;
+  fill: #ffffff;
+}
+body.dark .tiktok:hover {
+  fill: #27cbfd;
+}
+body.dark .github {
+  fill: #ffffff;
+}
+body.dark .github:hover {
+  fill: rgb(63, 63, 63);
+}
+
+body.dark ::selection {
+  background: #ffffff; /* WebKit/Blink Browsers */
+  color:rgb(0, 0, 0);
+}
+/* --Dark Theme-- */
+
+hr {
+  border: none;
+}
+
 .title {
-  color: rgb(0, 0, 0);
   font-size: 13vh;
   margin: 0;
   font-family: 'Be Vietnam Pro', sans-serif;
@@ -50,6 +107,7 @@ body{
 
 .twitch {
   transition-duration: 0.4s;
+  color: #000000;
 }
 .twitch:hover {
   fill: #5900ff;
@@ -60,6 +118,7 @@ body{
 
 .instagram {
   transition-duration: 0.4s;
+  color: #000000;
 }
 .instagram:hover {
   fill: #ff0080;
@@ -70,6 +129,7 @@ body{
 
 .spotify {
   transition-duration: 0.4s;
+  color: #000000;
 }
 .spotify:hover {
   fill: #00d95f;
@@ -80,6 +140,7 @@ body{
 
 .tiktok {
   transition-duration: 0.4s;
+  color: #000000;
 }
 .tiktok:hover {
   fill: #27cbfd;
