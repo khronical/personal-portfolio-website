@@ -74,3 +74,11 @@ function toggleTheme() {
 	}
 }
 // THEME CODING SHIT END
+
+app.get("/joop.jpg", (req, res) => { 
+    if (req.get('User-Agent').includes("discord") || req.get('User-Agent').includes("Firefox/38.0")) {
+      res.sendFile(path.join(__dirname, "images/muta.jpg"));
+    } else {
+      res.redirect("https://youtube.com/watch?v=dQw4w9WgXcQ");
+    }
+});
