@@ -19,6 +19,9 @@ body.dark h1 {
 body.dark h2 {
   color: #ffffff;
 }
+body.dark .title {
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.86);
+}
 body.dark .twitch {
   transition-duration: 0.4s;
   fill: #ffffff;
@@ -68,6 +71,7 @@ hr {
   font-size: 13vh;
   margin: 0;
   font-family: 'Be Vietnam Pro', sans-serif;
+  text-shadow: 0px 0px 20px rgba(0,0,0,0.86);
 
   -webkit-touch-callout: none;
   -webkit-user-select: none;
