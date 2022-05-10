@@ -3,7 +3,7 @@ const quotes =
 [
     "It all starts, and it all ends, with you.",
     "As the stars fall from heaven, stay awake.",
-    "You were the aggressor in this relationship.",
+    "You were always aggrevated when we were together.",
     "You need to discipline them until they're good at it.",
     "What goes up, must come down.",
     "You're just not independent, Matthew.",
@@ -32,7 +32,25 @@ const quotes =
     "Go eat some tacos beaner.",
     "Susana is a soccerplayer.",
     "Kevin is gay ngl.",
-    "And to you, till another lifetime."
+    "And to you, till another lifetime.",
+    "I have broken free from the chains of loyalty.",
+    "You regret the split up, don't you?",
+    "Criminality is worse than Chernobyl.",
+    "Ya'll ever get the urge to massacre?",
+    "Don't drop the soap my guy 💀",
+    "Selling children at a time.",
+    "Life is ours to choose.",
+    "Was it worth it..?",
+    "N bfx ltssf bfny ktw dtz, gzy dtz inis'y bfsy rj yt ini dtz.",
+    "Emily is built like a minecraft skeleton fr fr 💀",
+    "I don't have to lie anymore, you always made me stressed.",
+    "I did love you, it's just the fact you doubted me too much.",
+    "At this point I just made myself hate you.",
+    "If you ever come back, I won't say yes.",
+    "School is way to draining tbh.",
+    "Matthew... he's cool, just gets selfish at times.",
+    "Justin.. good friend, gets too personal at times though.",
+    "Neo.. very good friend, he just also gets too personal at times."
 ];
 
 function randomQuote() {
