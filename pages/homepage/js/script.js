@@ -3,13 +3,12 @@ const quotes =
 [
     "It all starts, and it all ends, with you.",
     "As the stars fall from heaven, stay awake.",
-    "You were always aggrevated when we were together.",
     "You need to discipline them until they're good at it.",
     "What goes up, must come down.",
     "You're just not independent, Matthew.",
-    "I never drifted away, it was your excuse.",
+    "You're the worst human being i've ever met.",
     "Power always gets out the worse in you.",
-    "Egg Grenade deserves all the negativity but death.",
+    "Egg Grenade deserves torture.",
     "I have severe procrastination.",
     "Homophobia doesn't involve anything with fear.",
     "Free Hong Kong",
@@ -20,7 +19,7 @@ const quotes =
     "Thiery is racist 💀",
     "Auctioning off Jacob for $100,000.",
     "Luz Marie is amazing :D",
-    "THANK YOUU ANGELINAA <33",
+    "Thank you Angelina for everything <3",
     "HELLOO XITLALYY!!",
     "YOO HELLO JUSTINN :D",
     "Matthew Patthew am I right??",
@@ -38,7 +37,7 @@ const quotes =
     "Criminality is worse than Chernobyl.",
     "Ya'll ever get the urge to massacre?",
     "Don't drop the soap my guy 💀",
-    "Selling children at a time.",
+    "Selling a child at a time.",
     "Life is ours to choose.",
     "Was it worth it..?",
     "N bfx ltssf bfny ktw dtz, gzy dtz inis'y bfsy rj yt ini dtz.",
@@ -46,11 +45,38 @@ const quotes =
     "I don't have to lie anymore, you always made me stressed.",
     "I did love you, it's just the fact you doubted me too much.",
     "At this point I just made myself hate you.",
-    "If you ever come back, I won't say yes.",
-    "School is way to draining tbh.",
-    "Matthew... he's cool, just gets selfish at times.",
-    "Justin.. good friend, gets too personal at times though.",
-    "Neo.. very good friend, he just also gets too personal at times."
+    "Do I look like I care? 💀",
+    "School is wayy too draining tbh.",
+    "Matthew is a very good friend 💪💪",
+    "Justin is also a very good friend, 10/10 💪💪",
+    "NEO IS A BIGG W 💪💪",
+    "Where'd all the time go? 🤔",
+    "SBAC is too ezz",
+    "Ms. Bachelier is a good person B)",
+    "No Women?",
+    "Low IQ?",
+    "Doxxing kids every step of the way.",
+    "Is life a simulation?",
+    "Thiery is only gay on Tuesdays.",
+    "Do I have a god complex??",
+    "I look to all of you and see a different species.",
+    "Cause I'm so high my brain can't even look at the fall.",
+    "Klu Klux Klan is a big L",
+    "Finna call the tenth crucade on you.",
+    "Ms. Ngeth is a big W B)",
+    "When you devoted to me why not be a little more friendly?",
+    "And well she's still runnin away from you.",
+    "And she told that she fuckin hates you.",
+    "What gives this energy? :)",
+    "A Capricorn oh f#$k that.",
+    "All this over a kiss?",
+    "You weren't there why you pressed by this? 💀💀",
+    "If I had it my way you'd sleep on the concrete.",
+    "I'm not sure they'd let you off easily.",
+    "F#$k the past, f#$k them, they all made me sad.",
+    "Imagine being name Vladmir Putin.",
+    "I feel so fuckin great oh my god :D",
+    "This quote was written at 1:29 AM, 05/19/22"
 ];
 
 function randomQuote() {
@@ -61,7 +87,7 @@ randomQuote()
 // RANDOM QUOTE SHIT END
 
 // THEME CODING SHIT
-let theme = window.localStorage.getItem('likes-sun');
+let theme = window.localStorage.getItem('likes-sun', 'yes');
 let scheme = window.matchMedia(`(prefers-color-scheme: light)`);
 
 if (theme === 'no') {
