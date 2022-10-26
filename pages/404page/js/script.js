@@ -9,10 +9,10 @@ if (theme === 'no') {
     console.log('client likes the sun :D');
 } else {
 	if (scheme) {
-		document.body.classList.add('dark');
-		console.log('client is new, but prefers dark');
-	} else {
 		document.body.classList.remove('dark');
 		console.log('client is new, but prefers light');
+	} else {
+		document.body.classList.add('dark');
+		console.log('client is new, but prefers dark');
 	}
 }

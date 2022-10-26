@@ -6,7 +6,6 @@ const quotes =
     "You need to discipline them until they're good at it.",
     "What goes up, must come down.",
     "You're just not independent, Matthew.",
-    "You're the worst human being i've ever met.",
     "Power always gets out the worse in you.",
     "Egg Grenade deserves torture.",
     "I have severe procrastination.",
@@ -18,26 +17,24 @@ const quotes =
     "Aaden is goofy af 💀",
     "Thiery is racist 💀",
     "Auctioning off Jacob for $100,000.",
-    "Luz Marie is amazing :D",
-    "Thank you Angelina for everything <3",
-    "HELLOO XITLALYY!!",
-    "YOO HELLO JUSTINN :D",
+    "Luz is awesome",
+    "Thank you Angelina !!!",
+    "Howdy Xitlaly 😎",
+    "YOO HELLO JUSTINN",
     "Matthew Patthew am I right??",
     "NeoXephox on top 💪💪",
-    "HELLOO NEO SAVANN :D",
-    "Santiago is fr a good person 💪💪",
+    "YOOO NEOO",
+    "Santiago is fr goated 💪💪",
     "Do or do not, there is no try.",
     "Kevin is such a bozo.",
     "Go eat some tacos beaner.",
     "Susana is a soccerplayer.",
     "Kevin is gay ngl.",
     "And to you, till another lifetime.",
-    "I have broken free from the chains of loyalty.",
-    "You regret the split up, don't you?",
     "Criminality is worse than Chernobyl.",
-    "Ya'll ever get the urge to massacre?",
-    "Don't drop the soap my guy 💀",
-    "Selling a child at a time.",
+    "Intrusive thoughts almost be winnin",
+    "Don't drop the soap",
+    "Selling kidneys",
     "Life is ours to choose.",
     "Was it worth it..?",
     "N bfx ltssf bfny ktw dtz, gzy dtz inis'y bfsy rj yt ini dtz.",
@@ -61,22 +58,26 @@ const quotes =
     "Do I have a god complex??",
     "I look to all of you and see a different species.",
     "Cause I'm so high my brain can't even look at the fall.",
-    "Klu Klux Klan is a big L",
-    "Finna call the tenth crucade on you.",
-    "Ms. Ngeth is a big W B)",
-    "When you devoted to me why not be a little more friendly?",
-    "And well she's still runnin away from you.",
+    "Kool Kids Klub B)",
+    "Finna call the tenth crucade on you",
+    "Ms. Ngeth 💪",
     "And she told that she fuckin hates you.",
     "What gives this energy? :)",
     "A Capricorn oh f#$k that.",
     "All this over a kiss?",
     "You weren't there why you pressed by this? 💀💀",
     "If I had it my way you'd sleep on the concrete.",
-    "I'm not sure they'd let you off easily.",
-    "F#$k the past, f#$k them, they all made me sad.",
-    "Imagine being name Vladmir Putin.",
-    "I feel so fuckin great oh my god :D",
-    "This quote was written at 1:29 AM, 05/19/22"
+    "Imagine being named Vladmir Putin.",
+    "I feel so fuckin great oh my god",
+    "This quote was written on 1:29 AM, 05/19/22",
+    "There's only 2 things I hate, racists and blackies",
+    "Stay woke stay white",
+    "Watch me get cancelled for this shit",
+    "This quote was written on 10:28 PM, 10/25/22",
+    "Bro who keeps drinking from my water uninvited bro",
+    "Rest In Pieces Jacob 🙏🙏",
+    "Jalisco Cartel head ahh",
+    "Shut yo strawberry picker ass up bro 💀",
 ];
 
 function randomQuote() {
@@ -98,11 +99,11 @@ if (theme === 'no') {
     console.log('client likes the sun :D');
 } else {
 	if (scheme) {
+        document.body.classList.remove('dark');
+		console.log('client is new, but prefers light');
+	} else {
 		document.body.classList.add('dark');
 		console.log('client is new, but prefers dark');
-	} else {
-		document.body.classList.remove('dark');
-		console.log('client is new, but prefers light');
 	}
 }
 
