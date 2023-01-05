@@ -157,6 +157,17 @@ hr {
   fill: #27cbfd;
 }
 
+.youtube {
+  transition-duration: 0.4s;
+  color: #000000;
+}
+.youtube:hover {
+  fill: #fd2e27;
+}
+.youtube::selection {
+  fill: #fd2e27;
+}
+
 .socials {
   font-size: 2vh;
   text-align: center;
