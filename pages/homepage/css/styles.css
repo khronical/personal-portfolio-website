@@ -83,6 +83,13 @@ hr {
       -ms-user-select: none;
           user-select: none;
 }
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 9.75vh;
+  }
+}
+
 #quote {
   text-shadow: 0px 0px 20px rgba(0,0,0,0.86);
   font-family: 'Roboto Mono', sans-serif;
@@ -95,6 +102,13 @@ hr {
       -ms-user-select: none;
           user-select: none;
 }
+
+@media (max-width: 600px) {
+  #quote {
+    font-size: 1.5em;
+  }
+}
+
 .center {
   height: 100vh;
   display: flex;
