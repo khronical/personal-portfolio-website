@@ -59,6 +59,13 @@ body.dark .github {
 body.dark .github:hover {
   fill: rgb(126, 126, 126);
 }
+body.dark .youtube {
+  transition-duration: 0.4s;
+  fill: #ffffff;
+}
+body.dark .twitch:hover {
+  fill: #fd2e27;
+}
 
 body.dark ::selection {
   background: #ffffff; /* WebKit/Blink Browsers */
