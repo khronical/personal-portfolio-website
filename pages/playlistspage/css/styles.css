@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+
+    background-color: white;
+    transition: background 0.2s linear;
+  }
+
+  /* --Dark Theme-- */
+  body.dark {
+    background-color: black;
+  }
+  body.dark h1 {
+    color: #ffffff;
+  }
+  body.dark h2 {
+    color: #ffffff;
+  }
+  body.dark .title {
+    text-shadow: 1px 0px 14px #FFFFFF;
+  }
+  body.dark .Card {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3); /* add a shadow effect to the div */
+    border: 1px solid transparent; /* add a transparent border to the div */
+    transition: all 0.2s ease-in-out; /* add a smooth transition effect */
+    background-color:rgb(0, 0, 0)
+  }
+  body.dark .Card:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* increase the shadow effect on hover */
+    border: 1px solid #272727; /* add a solid border with a color on hover */
+  }
+  body.dark .C_Name {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.86);
+    color: rgb(255, 255, 255);
+  }
+  body.dark .C_Desc {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: rgb(255, 255, 255);
+  }
+  body.dark ::selection {
+    background: #ffffff; /* WebKit/Blink Browsers */
+    color:rgb(0, 0, 0);
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  }
+
+  .Card {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* add a shadow effect to the div */
+    border: 1px solid transparent; /* add a transparent border to the div */
+    transition: all 0.2s ease-in-out; /* add a smooth transition effect */
+  }
+  
+  .Card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* increase the shadow effect on hover */
+    border: 1px solid #ccc; /* add a solid border with a color on hover */
+  }
+
+  .C_Name {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.86);
+    color: rgb(0, 0, 0);
+  }
+  
+  .C_Desc {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  
+
+  .title {
+    font-size: 7vh;
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.86);
+  
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  
+  @media (max-width: 600px) {
+    .title {
+      font-size: 5vh;
+    }
+  }
+  
+  #quote {
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.86);
+    font-family: 'Roboto Mono', sans-serif;
+    text-align: center;
+  
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  
+  @media (max-width: 600px) {
+    #quote {
+      font-size: 1.5em;
+    }
+  }
+  
+  .center {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .playlists-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .playlist-card {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .playlist-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .playlist-card h3 {
+    margin-top: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #14121a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(88, 88, 88);;
+  }
+  ::selection {
+    background: #000000; /* WebKit/Blink Browsers */
+    color:rgb(255, 255, 255);
+  }
