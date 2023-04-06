@@ -1,54 +1,36 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const playlistsContainer = document.getElementById('playlists-container');
-  
-    playlistsContainer.innerHTML = '<p>Loading playlists...</p>';
-  
-      var myHeaders = new Headers();
-      myHeaders.append("Content-Type", "application/json");
-      var requestOptions = {
-          method: "get",
-          headers: myHeaders,
-          redirect: "follow",
-      };
-  
-      const playlists = [
-        { id: "6mEbUBlq53BZyyFWBqo64K" },
-        { id: "1ljpacUeurSFijBSKWJIgI" },
-        { id: "3GAJHgI7mUhbmvgzDZduS0" },
-        { id: "6U2diEWPAGigJMRJ2aMIvX" },
-        { id: "6TWbnkOXPrRTOmg4hpnEbE" },
-        { id: "5jdJrSNBRpOFj95aSipZpU" }
-      ];
-        
-  
-      playlists.forEach(index => {
-          fetch(`https://v1.nocodeapi.com/khronical/spotify/VwXrQCiPOyCBoIwI/playlists?id=${index.id}`, requestOptions)
-          .then(response => response.text())
-          .then(result => {
-            const playlistName = JSON.parse(result).name;
-            const playlistDesc = JSON.parse(result).description;
-            const playlistId = JSON.parse(result).id;
-            const playlistCover = JSON.parse(result).images[0].url;
-      
-            const playlistCard = document.createElement('div');
-            playlistCard.classList.add('playlist-card');
-            playlistCard.innerHTML = `
-              <img src=${playlistCover} alt=${playlistName}>
-              <h3 class="C_Name">${playlistName}</h3>
-              <small class="C_Desc">${playlistDesc}</small>
-            `;
-            playlistCard.addEventListener('click', () => {
-            window.open(`https://open.spotify.com/playlist/${playlistId}`, '_blank');
-            });
+  const playlistsContainer = document.getElementById('playlists-container');
 
-            playlistCard.classList.add("Card");
-  
-            playlistsContainer.appendChild(playlistCard);
-        })
-        .catch(error => console.log('error', error));
+  const playlists = [
+    { name: "Heartbeat in Love", desc: `"Did heaven open up its door, to gift the world with one angel more?"`, id: "1ljpacUeurSFijBSKWJIgI", image: "https://i.scdn.co/image/ab67706c0000bebbfcaea767b1716c35ffa5c20a" },
+    { name: "Moving Forward", desc: `"Life is about the journey, not the destination, let it be what it is."`, id: "6mEbUBlq53BZyyFWBqo64K", image: "https://i.scdn.co/image/ab67706c0000bebbd50c7d1fa10fa2da03b4a9c8" },
+    { name: '"Time Heals All Wounds."', desc: `"Finally, I've managed to break free; Free of my thoughts, free of lies, free from hurting, free from her."`, id: "3GAJHgI7mUhbmvgzDZduS0", image: "https://i.scdn.co/image/ab67706c0000bebbbe1998a5fe109ee5bf41b322" },
+    { name: "Energizing Negativity", desc: `Up-Beat music that can have positive, or negative lyricss !`, id: "6TWbnkOXPrRTOmg4hpnEbE", image: "https://i.scdn.co/image/ab67706c0000bebb816529c5fc208a256138cb5f" },
+    { name: "Going with the Flow", desc: `Phases throughout my life, best listened randomizedd :)`, id: "6U2diEWPAGigJMRJ2aMIvX", image: "https://i.scdn.co/image/ab67706c0000bebb3106ac0ec880c2f9bda5cb62" },
+    { name: `"Enough."`, desc: `"Be free and let loose."`, id: "5jdJrSNBRpOFj95aSipZpU", image: "https://i.scdn.co/image/ab67706c0000bebbb3c104218997fcd2ec1a699d" }
+  ];
+
+  playlists.forEach(index => {
+    const playlistName = index.name;
+    const playlistDesc = index.desc;
+    const playlistId = index.id;
+    const playlistCover = index.image;
+
+    const playlistCard = document.createElement('div');
+    playlistCard.classList.add('playlist-card');
+    playlistCard.innerHTML = `
+      <img src=${playlistCover} alt=${playlistName}>
+      <h3 class="C_Name">${playlistName}</h3>
+      <small class="C_Desc">${playlistDesc}</small>
+    `;
+    playlistCard.addEventListener('click', () => {
+    window.open(`https://open.spotify.com/playlist/${playlistId}`, '_blank');
     });
 
-    playlistsContainer.innerHTML = '';
+    playlistCard.classList.add("Card");
+
+    playlistsContainer.appendChild(playlistCard);
+  })
 });
 
 // THEME CODING SHIT

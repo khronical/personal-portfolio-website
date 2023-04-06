@@ -23,14 +23,14 @@ body {
     text-shadow: 1px 0px 14px #FFFFFF;
   }
   body.dark .Card {
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3); /* add a shadow effect to the div */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.86); /* add a shadow effect to the div */
     border: 1px solid transparent; /* add a transparent border to the div */
     transition: all 0.2s ease-in-out; /* add a smooth transition effect */
-    background-color:rgb(0, 0, 0)
+    background-color:rgb(8, 8, 8)
   }
   body.dark .Card:hover {
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* increase the shadow effect on hover */
-    border: 1px solid #272727; /* add a solid border with a color on hover */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.86); /* increase the shadow effect on hover */
+    border: 1px solid #ccc; /* add a solid border with a color on hover */
   }
   body.dark .C_Name {
     font-family: 'Be Vietnam Pro', sans-serif;
@@ -51,13 +51,13 @@ body {
   }
 
   .Card {
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* add a shadow effect to the div */
+    box-shadow: 0 0 15px rgba(0,0,0,0.86); /* add a shadow effect to the div */
     border: 1px solid transparent; /* add a transparent border to the div */
     transition: all 0.2s ease-in-out; /* add a smooth transition effect */
   }
   
   .Card:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* increase the shadow effect on hover */
+    box-shadow: 0 0 20px rgba(0,0,0,0.86); /* increase the shadow effect on hover */
     border: 1px solid #ccc; /* add a solid border with a color on hover */
   }
 
