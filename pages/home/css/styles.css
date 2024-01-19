@@ -1,0 +1,120 @@
+/* $desktop:1200px;// col-xl
+$laptop:1024px;// col-lg
+$tablet:768px;// md
+$phone:480px;// sm */
+
+/* $desktop:1200px;// col-xl
+$laptop:1024px;// col-lg
+$tablet:768px;// md
+$phone:480px;// sm */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body{
+    background-color: #0E0E0E;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+  
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 3s;
+}
+.show {
+    opacity: 1;
+    filter: blur(0px);
+}
+
+@keyframes rainbowAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+}
+.ellipse {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      border-radius: 50%;
+      background: linear-gradient(90deg, 
+          rgba(255, 0, 0, 0.25), 
+          rgba(255, 255, 0, 0.25), 
+          rgba(0, 255, 0, 0.25), 
+          rgba(0, 255, 255, 0.25), 
+          rgba(0, 0, 255, 0.25), 
+          rgba(255, 0, 255, 0.25), 
+          rgba(255, 0, 0, 0.25),
+          rgba(255, 255, 0, 0.25),
+          rgba(0, 255, 0, 0.25),
+          rgba(0, 255, 255, 0.25), 
+          rgba(0, 0, 255, 0.25),
+          rgba(255, 0, 255, 0.25),
+          rgba(255, 0, 0, 0.25)
+      );
+      background-size: 200% 100%; /* Adjusted the size for smoother looping */
+      animation: rainbowAnimation 5s linear infinite;
+      filter: blur(50px);
+      width: 462px;
+      height: 103px;
+}
+
+.khronical {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 125%; /* 80px */
+    margin-bottom: 2px; /* Adjust the margin as needed */
+}
+
+.belowkhr {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 100%; /* 32px */
+    margin-top: 2px; /* Adjust the margin as needed */
+}
+  
+::-webkit-scrollbar-track {
+    background: #14121a;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(88, 88, 88);;
+}
+::selection {
+    background: #FFF; /* WebKit/Blink Browsers */
+    color:#000000;
+}
+  
+  
+::-webkit-scrollbar-track {
+    background: #14121a;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(88, 88, 88);;
+}
+::selection {
+    background: #FFF; /* WebKit/Blink Browsers */
+    color:#000000;
+}
+  
