@@ -25,6 +25,19 @@ section {
     align-content: center;
     min-height: 100vh;
 }
+
+/* Normal link color */
+a {
+    color: #fff; /* Replace with your desired color */
+    text-decoration: none;
+    transition: all 0.3s;
+}
+  
+/* Hover link color */
+a:hover {
+    color: #fff; /* Replace with your desired hover color */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+}
   
 .hidden {
     opacity: 0;
