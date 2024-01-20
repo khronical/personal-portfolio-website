@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body{
+    background-color: #0E0E0E;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align content to the top of the section */
+    min-height: 100vh;
+    place-items: center;
+}
+
+/* Normal link color */
+a {
+    color: #fff; /* Replace with your desired color */
+    text-decoration: none;
+    transition: all 0.3s;
+}
+  
+/* Hover link color */
+a:hover {
+    color: #fff; /* Replace with your desired hover color */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+}
+  
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 3s;
+}
+.show {
+    opacity: 1;
+    filter: blur(0px);
+}
+
+.header {
+    color: white;
+
+    flex-grow: 1;
+
+    font-size: 64px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 80px;
+    word-wrap: break-word;
+    text-align: left; /* Left-align the text within the header */
+    margin-bottom: 10px; /* Add some bottom margin to separate header and writing */
+}
+
+.writing {
+    color: white;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 17.50px;
+    word-wrap: break-word;
+    max-width: 800px; /* Set a maximum width for the text */
+    margin: 0 auto; /* Center the text within the section */
+    text-align: left; /* Left-align the text within the writing */
+    text-shadow: 4px 0px 10px rgba(255, 255, 255, 0.50);
+}
+
+@keyframes rainbowAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+}
+.ellipse {
+    position: absolute;
+    top: 9%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 50%;
+    background: linear-gradient(90deg, 
+        rgba(255, 0, 0, 0.75), 
+        rgba(255, 255, 0, 0.75), 
+        rgba(0, 255, 0, 0.75), 
+        rgba(0, 255, 255, 0.75), 
+        rgba(0, 0, 255, 0.25), 
+        rgba(255, 0, 255, 0.75), 
+        rgba(255, 0, 0, 0.75),
+        rgba(255, 255, 0, 0.75),
+        rgba(0, 255, 0, 0.75),
+        rgba(0, 255, 255, 0.75), 
+        rgba(0, 0, 255, 0.75),
+        rgba(255, 0, 255, 0.75),
+        rgba(255, 0, 0, 0.75)
+    );
+    background-size: 200% 100%; /* Adjusted the size for smoother looping */
+    animation: rainbowAnimation 5s linear infinite;
+    filter: blur(50px);
+    width: 92px;
+    height: 92px;
+}

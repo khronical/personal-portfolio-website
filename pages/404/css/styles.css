@@ -49,14 +49,6 @@ a:hover {
     filter: blur(0px);
 }
 
-@keyframes rainbowAnimation {
-    0% {
-      background-position: 0% 50%;
-    }
-    100% {
-      background-position: 100% 50%;
-    }
-}
 .ellipse {
       position: absolute;
       top: 50%;
@@ -66,21 +58,7 @@ a:hover {
       overflow: hidden;
       text-overflow: ellipsis;
       border-radius: 50%;
-      background: linear-gradient(90deg, 
-          rgba(255, 0, 0, 0.25), 
-          rgba(255, 255, 0, 0.25), 
-          rgba(0, 255, 0, 0.25), 
-          rgba(0, 255, 255, 0.25), 
-          rgba(0, 0, 255, 0.25), 
-          rgba(255, 0, 255, 0.25), 
-          rgba(255, 0, 0, 0.25),
-          rgba(255, 255, 0, 0.25),
-          rgba(0, 255, 0, 0.25),
-          rgba(0, 255, 255, 0.25), 
-          rgba(0, 0, 255, 0.25),
-          rgba(255, 0, 255, 0.25),
-          rgba(255, 0, 0, 0.25)
-      );
+      background: rgba(255, 0, 0, 0.25);
       background-size: 200% 100%; /* Adjusted the size for smoother looping */
       animation: rainbowAnimation 5s linear infinite;
       filter: blur(50px);
@@ -88,7 +66,7 @@ a:hover {
       height: 103px;
 }
 
-.khronical {
+.mainheader {
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 64px;
@@ -98,7 +76,7 @@ a:hover {
     margin-bottom: 2px; /* Adjust the margin as needed */
 }
 
-.belowkhr {
+.subheader {
     color: #FFF;
     font-family: Inter;
     font-size: 16px;
