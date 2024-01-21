@@ -19,12 +19,14 @@ body{
     margin: 0;
 }
 
-section {
+
+header {
     display: grid;
     place-items: center;
     align-content: center;
     min-height: 100vh;
 }
+
 
 /* Normal link color */
 a {
@@ -42,13 +44,21 @@ a:hover {
 .hidden {
     opacity: 0;
     filter: blur(5px);
-    transition: all 3s;
+    transition: all 0.5s;
 }
 .show {
     opacity: 1;
     filter: blur(0px);
 }
 
+@keyframes rainbowAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+}
 .ellipse {
       position: absolute;
       top: 50%;
@@ -58,7 +68,13 @@ a:hover {
       overflow: hidden;
       text-overflow: ellipsis;
       border-radius: 50%;
-      background: rgba(255, 0, 0, 0.25);
+      background: linear-gradient(90deg, 
+          rgba(255, 0, 0, 0.25), 
+          rgba(255, 0, 0, 0.5), 
+          rgba(255, 0, 0, 0.25), 
+          rgb(255, 0, 0, 0.5),
+          rgba(255, 0, 0, 0.25)
+      );
       background-size: 200% 100%; /* Adjusted the size for smoother looping */
       animation: rainbowAnimation 5s linear infinite;
       filter: blur(50px);
@@ -66,7 +82,7 @@ a:hover {
       height: 103px;
 }
 
-.mainheader {
+.header {
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 64px;
@@ -74,16 +90,23 @@ a:hover {
     font-weight: 300;
     line-height: 125%; /* 80px */
     margin-bottom: 2px; /* Adjust the margin as needed */
+    
+    display: block;
+    text-align: center;
 }
 
-.subheader {
+.writing {
     color: #FFF;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 100;
     line-height: 100%; /* 32px */
-    margin-top: 2px; /* Adjust the margin as needed */
+    margin-top: 5px; /* Adjust the margin as needed */
+
+    display: block;
+    text-align: center;
+    margin-top: 5px;
 }
   
 ::-webkit-scrollbar-track {

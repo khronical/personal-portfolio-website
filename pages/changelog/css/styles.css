@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 
 body{
     background-color: #0E0E0E;
@@ -15,6 +17,42 @@ header {
     flex-direction: column;
     align-items: center; /* Align content to the top of the section */
     place-items: center;
+}
+
+h3 {
+    display: block;
+    margin: 0 auto; 
+    max-width: 800px;
+    margin-top: 50px;
+
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+p {
+    display: block;
+    margin: 0 auto; 
+    max-width: 800px;
+    margin-top: 10px;
+
+    font-weight: 200;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    margin: 0 auto; 
+    max-width: 800px;
+    margin-top: 10px;
+
+    font-weight: 200;
+    font-size: 20px;
+}
+
+li::marker {
+    content: ' -  ';
 }
 
 /* Normal link color */
