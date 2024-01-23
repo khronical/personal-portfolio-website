@@ -1,6 +1,8 @@
 const quotes = {
     khronical: [
-        "i just killed a guy with a glock and now im running"
+        "i just killed a guy with a glock and now im running",
+        "Banned",
+        "you CANADIAN 😡"
     ],
     vomitchicken: [
         "I don't discriminate, I only penetrate"
@@ -13,30 +15,41 @@ const quotes = {
         "I'm feeling very freaky & this pillow is about to get raped",
         "*pops a totem* yeah okay in a bit guys-",
         "I woke up in gaza strip",
-        "I hate niggers",
         "subscribe to https://www.youtube.com/bliooz",
-        "follow bliooz on spotify plz I'll suck you off"
+        "follow bliooz on spotify plz I'll suck you off",
+        "I'll be fine I've got irl plot armour"
     ],
     drmatthewhd: [
         "These things, they take time.",
         "WHAT IS THIS MICKEY MOUSE BULLSHIT",
         "Drink water, It's good for you",
-        "What am I just hearding?"
+        "What am I just hearding?",
+        "poptarts",
+        "I hate the fact Your providing a fair point",
+        "Where Americans It's what we do"
     ],
     chasetrg: [
-        "about time this section got added"
+        "about time this section got added",
+        "L bozo"
     ],
     celestialspectre: [
         "Spectre makes his lore character a piece of bread instantly regrets it!",
-        "MILK GET IN THE FUCKING LINE YOU FATHERLESS RANKER!"
+        "MILK GET IN THE FUCKING LINE YOU FATHERLESS RANKER!",
+        "RAAAAAAH",
+        "WAAAAAAAAAAAAAH",
+        "niger"
     ],
     mel1364: [
         "whenever someone tells you to check outside your front door, that's a good time to go and lock your front door",
         "the fog is coming",
-        "the killings the killings the killings the-"
+        "the killings the killings the killings the-",
+        "i've been blorbin"
     ],
     noobsteel: [
-        "I am an america"
+        "I am an america",
+        "Wackers",
+        "Silly",
+        "Sad"
     ]
 };
 
