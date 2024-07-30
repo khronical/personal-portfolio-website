@@ -1,5 +1,3 @@
-const fs = require('fs')
-
 function decrypt(text, secret) {
     return text.split('')
         .map(char => {
