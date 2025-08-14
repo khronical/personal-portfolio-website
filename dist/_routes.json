@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "include": [
+    "/_server-islands/*"
+  ],
+  "exclude": [
+    "/",
+    "/_astro/*",
+    "/.assetsignore",
+    "/cpp-logo.svg",
+    "/css-logo.svg",
+    "/favicon.png",
+    "/html-5.svg",
+    "/java-logo.svg",
+    "/javascript-logo.svg",
+    "/luau-icon.png",
+    "/python-logo.png",
+    "/python-logo.svg",
+    "/robots.txt",
+    "/New folder/Alignment.png",
+    "/New folder/Constellation.svg",
+    "/New folder/signal_6EQUJ5.mp3",
+    "/404",
+    "/about-me"
+  ]
+}
