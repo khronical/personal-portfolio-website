@@ -1,0 +1,11 @@
+name = "khronical"
+compatibility_date = "2025-03-25"
+
+[build]
+command = "npm run build"
+
+[build.environment_variables]
+NODE_VERSION = "18"
+
+[[pages_build_output_dir]]
+directory = "./dist"
