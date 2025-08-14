@@ -5,8 +5,11 @@ body{
     background-color: #0E0E0E;
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
-    padding: 0;
-    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 a {
@@ -18,6 +21,18 @@ a {
 a:hover {
     color: #fff;
     text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+}
+
+.links {
+    padding-top: 20px;
+
+    min-width: 500px;
+    max-width: 800px;
+
+    text-align: left;
+    color: #838383;
+
+    margin: auto
 }
   
 .hidden {

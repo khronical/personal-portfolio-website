@@ -14,7 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.3",
-    "astro": "^5.12.9"
+    "astro": "^5.12.9",
+    "simple-icons-astro": "^15.10.0"
   },
   "devDependencies": {
     "wrangler": "^4.29.1"
