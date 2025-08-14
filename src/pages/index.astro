@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import "../styles/global.css";
+import "./index.css";
+
+const headertext = "{khronical}";
+---
+<BaseLayout title="K:\\">
+    <header class="hidden">
+        <h1 class="header">{headertext}</h1>
+        <p class="writing">
+            <a href="/about-me/">About Me</a> /
+            <a href="/projects/">Projects</a> /
+            <a href="/my-work/">My Work</a> /
+            <a href="/blog/">Blog</a>
+        </p>
+    </header>
+
+    <div class="ellipse"></div>
+</BaseLayout>

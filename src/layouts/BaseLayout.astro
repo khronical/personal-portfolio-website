@@ -1,0 +1,29 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+const { title } = Astro.props;
+---
+<html>
+  <head>
+    <BaseHead title={title}/>
+  </head>
+  <body>
+    <slot />
+
+    <script>
+        const observer = new IntersectionObserver((entries) =>{
+            entries.forEach((entry) =>{
+                console.log(entry)
+                if (entry.isIntersecting) { // If element is visible
+                    entry.target.classList.add('show');
+                } else { // If element is not visible
+                    entry.target.classList.remove('show');
+                }
+            });
+        });
+
+        const hiddenElements = document.querySelectorAll('.hidden'); // Get all hidden elements
+        hiddenElements.forEach((el) => observer.observe(el)); // For each element, observe it
+    </script>
+
+  </body>
+</html>

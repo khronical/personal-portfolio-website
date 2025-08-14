@@ -1,0 +1,47 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CodeCard from "../components/CodeCard.astro";
+import "../styles/global.css";
+import "./about-me.css";
+---
+<BaseLayout title="K:\\">
+    <div class="hidden" id="center-div">
+        <h1 class="header"># About Me</h1>
+        <p class="writing">
+            I'm a High School student from the United States pursuing a career in software engineering.
+            <br> <br>
+
+            I’m what is considered a “self-taught” programmer. I’m not a professional just yet I’m still early on in my journey.
+            I like to work or learn about anything I deem to be interesting. For example, Roblox Game Development, Web Development, and Software Automation.
+            <br> <br>
+
+            I enjoy playing video games every now and again, going out with friends, and especially listening to music.
+            My music taste varies a lot, so uh according to my stats.fm, my top 3 artists are: Tyler The Creator, Mac DeMarco, and Kendrick Lamar
+            though Sweatcult lowk so peak....
+        </p>
+
+        <br>
+        <h2>My Skillset:</h2>
+
+        <h3>Proficient</h3>
+        <div class="flex-container">
+            <CodeCard image="/luau-icon.png" text="LuaU" alt="LuaU Logo"/>
+            <CodeCard image="/python-logo.svg" text="Python" alt="Python Logo"/>
+            <CodeCard image="/html-5.svg" text="HTML" alt="HTML Logo"/>
+            <CodeCard image="/css-logo.svg" text="CSS" alt="CSS Logo"/>
+        </div>
+        <br>
+
+        <h3>Intermediate</h3>
+        <div class="flex-container">
+            <CodeCard image="/javascript-logo.svg" text="Javascript" alt="JS Logo"/>
+        </div>
+        <br>
+
+        <h3>Beginner</h3>
+        <div class="flex-container">
+            <CodeCard image="/cpp-logo.svg" text="C++" alt="C++ Logo"/>
+            <CodeCard image="/java-logo.svg" text="Java" alt="Java Logo"/>
+        </div>
+    </div>
+</BaseLayout>

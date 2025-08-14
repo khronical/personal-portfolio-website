@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import "../styles/global.css";
+import "./404.css";
+
+const headertext = "{404}";
+---
+<BaseLayout title="K:\\??">
+    <header class="hidden">
+        <h1 class="header">{headertext}</h1>
+        <p class="writing">
+            Looks like you're lost, return <a href="/">home?</a>
+        </p>
+    </header>
+
+    <div class="ellipse"></div>
+</BaseLayout>
