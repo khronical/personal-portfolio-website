@@ -1,10 +1,14 @@
 ---
-import "../index.css";
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import NavBar from '../../components/NavBar.astro'
+import "../../styles/global.css"
+import "./article.css";
 
 import { getCollection, CollectionEntry } from 'astro:content';
 export const getStaticPaths = async () => {
     const posts = await getCollection("posts");
-    const filteredPosts = posts.filter(post => !post.id.includes('.obsidian'));
+    console.log(posts)
+    const filteredPosts = posts.filter(post => !post.id.includes('undefined'));
     const paths = filteredPosts.map(post => {
         return {
             params: {
@@ -23,14 +27,13 @@ type Props = {
 }
     
 const {post} = Astro.props;
-const {Content} = await post.render();
-
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import NavBar from '../../components/NavBar.astro'
 ---
 
 <BaseLayout title=`K:\\${post.data.title}`>
-    <NavBar headertext=`# ${post.data.title}` />
-
-    <Content/>
+    <div class="hidden" id="center-div">
+        <NavBar headertext=`# ${post.data.title}` />
+        <p class="description">{post.data.description}</p>
+        <div class="divider"/>
+        <div class="writing" set:html={post.rendered.html} />
+    </div>
 </BaseLayout>
