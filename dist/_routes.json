@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "include": [
+    "/_server-islands/*"
+  ],
+  "exclude": [
+    "/",
+    "/_astro/*",
+    "/.assetsignore",
+    "/favicon.png",
+    "/robots.txt",
+    "/hm/Alignment.png",
+    "/hm/Constellation.svg",
+    "/hm/signal_6EQUJ5.mp3",
+    "/404",
+    "/about-me",
+    "/contact-me",
+    "/site-map",
+    "/journal"
+  ]
+}

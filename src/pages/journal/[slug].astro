@@ -1,0 +1,36 @@
+---
+import "../index.css";
+
+import { getCollection, CollectionEntry } from 'astro:content';
+export const getStaticPaths = async () => {
+    const posts = await getCollection("posts");
+    const filteredPosts = posts.filter(post => !post.id.includes('.obsidian'));
+    const paths = filteredPosts.map(post => {
+        return {
+            params: {
+                slug: post.data.slug
+            },
+            props: {
+                post
+            }
+        }   
+    })
+    return paths;
+} 
+
+type Props = {
+    post: CollectionEntry<"posts">
+}
+    
+const {post} = Astro.props;
+const {Content} = await post.render();
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import NavBar from '../../components/NavBar.astro'
+---
+
+<BaseLayout title=`K:\\${post.data.title}`>
+    <NavBar headertext=`# ${post.data.title}` />
+
+    <Content/>
+</BaseLayout>
