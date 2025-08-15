@@ -34,6 +34,8 @@ header {
       filter: blur(50px);
       width: 462px;
       height: 103px;
+
+      pointer-events: none;
 }
 
 .header {

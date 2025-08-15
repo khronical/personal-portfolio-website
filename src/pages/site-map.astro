@@ -1,0 +1,53 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import NavBar from "../components/NavBar.astro";
+import "../styles/global.css";
+import "./about-me.css"; 
+
+---
+<BaseLayout title="K:\\site-map">
+    <div class="hidden" id="center-div">
+        <NavBar headertext="# Site Map" />
+        <p class="writing">
+            Sitemap or whatever
+        </p>
+
+        <ul>
+            <li>
+                <a href="/journal/">
+                    <h3 class="branch-header">Journal</h3>
+                    <p class="branch-desc">Think of this as a blog</p>
+                </a>
+            </li>
+            <br>
+            <li>
+                <a href="/my-work/">
+                    <h3 class="branch-header">My Work</h3>
+                    <p class="branch-desc">Projects and stuff I've done in general</p>
+                </a>
+            </li>
+            <br>
+            <li>
+                <a href="/changelog/">
+                    <h3 class="branch-header">Changelog</h3>
+                    <p class="branch-desc">Updates throughout the years</p>
+                </a>
+            </li>
+            <br>
+            <li>
+                <a href="/about-me/">
+                    <h3 class="branch-header">About Me</h3>
+                    <p class="branch-desc">Stuff about me probably</p>
+                </a>
+            </li>
+            <br>
+            <li>
+                <a href="/contact-me/">
+                    <h3 class="branch-header">Contact Me</h3>
+                    <p class="branch-desc">My information and such</p>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</BaseLayout>

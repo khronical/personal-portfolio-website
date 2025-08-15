@@ -6,14 +6,16 @@ import "./index.css";
 const headertext = "{khronical}";
 ---
 <BaseLayout title="K:\\">
-    <header class="hidden">
-        <h1 class="header">{headertext}</h1>
-        <p class="writing">
-            <a href="/journal/">Journal</a> /
-            <a href="/projects/">Projects</a> /
-            <a href="/site-map/">Site Map</a>
-        </p>
-    </header>
+    <div class="hidden">
+        <div class="header-container">
+            <h1 class="header">{headertext}</h1>
+            <p class="writing">
+                <a href="/journal/">Journal</a> /
+                <a href="/my-work/">My Work</a> /
+                <a href="/site-map/">Site Map</a>
+            </p>
+        </div>
+    </div>
 
     <div class="ellipse"></div>
 </BaseLayout>

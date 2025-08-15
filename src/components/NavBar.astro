@@ -1,13 +1,17 @@
 ---
 import "../styles/global.css";
+
+const { headertext } = Astro.props;
 ---
 
 <nav>
     <div class="links">
         khr /
         <a href="/journal/">Journal</a> /
-        <a href="/projects/">Projects</a> /
+        <a href="/my-work/">My Work</a> /
         <a href="/site-map/">Site Map</a>
     </div>
     <br>
 </nav>
+
+<h1 class="header">{headertext}</h1>

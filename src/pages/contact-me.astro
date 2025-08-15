@@ -1,0 +1,21 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import NavBar from "../components/NavBar.astro";
+import "../styles/global.css";
+import "./contact-me.css"; 
+
+---
+<BaseLayout title="K:\\contact-me">
+    <div class="hidden" id="center-div">
+        <NavBar headertext="# Contact Me" />
+        <p class="writing">
+            If you wish to get in contact with me, you may do so here:
+            <br><br>
+            <a href="mailto:khronical@khronical.dev">✉️ khronical@khronical.dev</a>
+            <br><br>
+            Otherwise, if you'd like to check out any of my github projects, you may do so here:
+            <br><br>
+            <a href="https://github.com/khronical">⭐ khronical</a>
+        </p>
+    </div>
+</BaseLayout>

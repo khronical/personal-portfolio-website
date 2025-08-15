@@ -1,0 +1,100 @@
+#center-div {
+    min-width: 500px;
+    max-width: 800px;
+    text-align: left;
+    margin: auto
+}
+
+.container {
+    display: block;
+
+    padding: 10px;
+
+    background: none;
+    height: auto;
+    width: auto;
+
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(71, 71, 71);
+    border-radius: 10px;
+
+    place-items: start;
+    align-content: start;
+
+    color: rgb(206, 206, 206);
+}
+
+.flex-container a svg {
+    transition: all 0.3s ease;
+    fill: currentColor;
+}
+
+.flex-container a:hover svg {
+    fill: #ff00b3; /* Nice blue color */
+}
+
+.flex-container {
+    display: flex;
+    gap: 10px;
+
+    padding: 10px;
+
+    background: none;
+    height: auto;
+    width: auto;
+
+    place-items: center;
+    align-content: center;
+
+    transition: all 0.3s ease;
+}
+
+.writing {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 100%; /* 32px */
+    margin-top: 5px;
+
+    display: block;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.header {
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 125%; /* 80px */
+    margin-bottom: 2px;
+    
+    display: block;
+
+    background: linear-gradient(90deg, 
+          rgba(162, 0, 255, 1), 
+          rgba(76, 0, 255, 1), 
+          rgba(255, 0, 212, 1),
+          rgba(162, 0, 255, 1), 
+          rgba(76, 0, 255, 1), 
+          rgba(255, 0, 212, 1),
+          rgba(162, 0, 255, 1)
+    );
+    background-size: 200% 100%;
+    animation: rainbowAnimation 5s linear infinite;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes rainbowAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+}
