@@ -1,0 +1,35 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import NavBar from "../../components/NavBar.astro";
+import "../../styles/global.css";
+import "./index.css";
+
+// console.log(posts)
+---
+
+<BaseLayout title="K:\\journal">
+    <div class="hidden" id="center-div">
+        <NavBar headertext="# My Work" />
+        <p class="writing">
+            Here you'll find all the projects and work I've done throughout the years
+        </p>
+        <hr>
+        <div class="project-flip">
+            <img style="order: 2" src="/my-work/icefall.jpg" alt="">
+            <div style="order: 1" class="project-context">
+                <div style="margin-top: 5px; margin-bottom: 5px;" class="project-desc">
+                    <div class="project-header">
+                        <h2>ICEFALL</h2>
+                    </div>
+                    <p>
+                        I love icefall icefall so peak so peak sigma icefall yes we are so back sigmas icefall is soo tuff
+                    </p>
+
+                    <div class="project-links">
+                        <a href="https://github.com/" target="_blank">View</a> / <a href="https://github.com/" target="_blank">Source</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</BaseLayout>
