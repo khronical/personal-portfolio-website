@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import NavBar from "../../components/NavBar.astro";
+import ProjectCard from "../../components/ProjectCard.astro";
 import "../../styles/global.css";
 import "./index.css";
 
@@ -13,26 +14,32 @@ import "./index.css";
         <p class="writing">
             Here you'll find all the projects and work I've done throughout the years
         </p>
-        <hr>
-        <div class="project-card">
-            <img style="order: 2" src="/my-work/icefall.jpg" alt="">
-            <div style="order: 1" class="project-context">
-                <div style="margin-top: 5px; margin-bottom: 5px;" class="project-desc">
-                    <div class="project-header">
-                        <h2>ICEFALL</h2>
-                    </div>
-                    <p>
-                        Abandoned within the snow.. <br>
-                        Sent to your death, not expected to return.. <br>
-                        <br>
-                        This project was heavily inspired by isle, be sure to check it out! 
-                    </p>
 
-                    <div class="project-links">
-                        | <a href="https://github.com/" target="_blank">View</a> / <a href="https://github.com/" target="_blank">Source</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <hr>
+
+        <ProjectCard
+            projectheader="Khronical.dev"
+            projectimage="/my-work/Portfolio.png"
+            viewlink="https://khronical.dev/"
+            sourcelink="https://khronical.dev/soon"
+            opposite="False">
+            
+            This is the website you're on now! I started coding these websites around 2021-2022 and have gone through 5 whole redesigns!<br>
+            <br>
+            Currently, we are on the 6th iteration, which is built using the Astro framework!
+        </ProjectCard>
+
+        <hr>
+
+        <ProjectCard
+            projectheader="Epimetheus"
+            projectimage="/my-work/Epimetheus.png"
+            sourcelink="https://github.com/khronical/vex-robot-epimetheus-spinup/"
+            opposite="False">
+
+            Epimetheus is the name my middle school robotics team decided upon for our robot.<br>
+            <br>
+            This was for the VEX 'Spin Up!' competition, during 2022-2023. This code is the controller logic for the robot of my team!
+        </ProjectCard>
     </div>
 </BaseLayout>

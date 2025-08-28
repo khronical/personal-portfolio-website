@@ -1,0 +1,48 @@
+---
+
+import "../styles/global.css";
+import "./ProjectCard.css"
+
+const { projectheader, projectimage, viewlink, sourcelink, opposite } = Astro.props;
+
+let imageOrder;
+let contextOrder;
+
+if (opposite == "True") {
+    imageOrder = `order: 1`;
+    contextOrder = `order: 2`;
+} else {
+    imageOrder = `order: 2`;
+    contextOrder = `order: 1`;
+}
+
+---
+
+<div class="project-card">
+    <img style={imageOrder} src={projectimage} alt="">
+    <div style={contextOrder} class="project-context">
+        <div style="margin-top: 5px; margin-bottom: 5px;" class="project-desc">
+            <div class="project-header">
+                <h2>{projectheader}</h2>
+            </div>
+            <p>
+                <slot/>
+            </p>
+
+            <div class="project-links">
+                |
+                {viewlink ? (
+                    <a href={viewlink} target="_blank" rel="noopener noreferrer">
+                        View
+                    </a>
+                ) : null}
+                {viewlink && sourcelink ? " / " : null}
+                {sourcelink ? (
+                    <a href={sourcelink} target="_blank" rel="noopener noreferrer">
+                        Source
+                    </a>
+                ) : null}
+            </div>
+        </div>
+    </div>
+</div>
