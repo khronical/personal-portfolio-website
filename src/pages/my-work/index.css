@@ -1,5 +1,6 @@
 hr {
-    border-color: #000000;
+    border: 1px solid rgb(27, 27, 27);
+    border-radius: 5px;
 
     margin-top: 5vh;
     margin-bottom: 5vh;

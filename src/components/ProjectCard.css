@@ -5,7 +5,7 @@ img {
 
     border: 2px;
     border-style: dotted;
-    border-color: #1d1d1d;
+    border-color: #181818;
     border-radius: 20px;
 }
 
@@ -41,13 +41,12 @@ a .project-links {
     gap: 10px;
     justify-content: space-between;
 
-    width: 100%;
+    width: 350px;
     height: fit-content;
 }
 
 .project-context {
     margin: 8px 0;
-    flex: 400px;
     display: flex;
 
     flex-wrap: wrap;
@@ -65,7 +64,7 @@ a .project-links {
     flex-wrap: wrap;
     flex-direction: row;
 
-    gap: 25px;
+    gap: 0px;
     justify-content: space-between;
 
     height: fit-content;
