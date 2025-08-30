@@ -2,11 +2,13 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import NavBar from "../../components/NavBar.astro";
+import ArticleCard from "../../components/Article/ArticleCard.astro";
 import "../../styles/global.css";
 import "./index.css";
 
 const posts = await getCollection("posts");
-// console.log(posts)
+//console.log(posts)
+
 ---
 
 <BaseLayout title="K:\\journal">
@@ -16,14 +18,9 @@ const posts = await getCollection("posts");
             This basically serves as my personal journal, or blog if you're boring
         </p>
 
-        <ul>
-            {posts.map(post => (
-                <li>
-                    <a href={`/journal/${post.data.slug}`}>
-                        <p>{post.data.title}</p>
-                    </a>
-                </li>
-            ))}
-        </ul>
+        {posts.map(post => (
+            <hr>
+            <ArticleCard postData={post.data}/>
+        ))}
     </div>
 </BaseLayout>

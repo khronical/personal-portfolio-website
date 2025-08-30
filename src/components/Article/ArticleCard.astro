@@ -1,0 +1,33 @@
+---
+
+import "../../styles/global.css";
+import "./ArticleCard.css"
+
+import Time from "./Time.astro";
+
+const { postData, thumbnail } = Astro.props;
+
+const coverThumbnail = thumbnail || "/my-work/Portfolio.png"
+
+const rawDate = new Date(postData.created);
+const formattedDate = rawDate.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+
+---
+
+<a href={`/journal/${postData.slug}`} target="_blank">
+<div class="article-card">
+    <img class="thumbnail" style="order: 2" src={coverThumbnail} alt="">
+    <div style="order: 1" class="artoc;e-context">
+        <div style="margin-top: 5px; margin-bottom: 5px;" class="article-desc">
+            <div class="article-header">
+                <h2>{postData.title}</h2>
+            </div>
+            <p>
+                {postData.description}
+            </p>
+            <br>
+            <Time datecreated={formattedDate}></Time>
+        </div>
+    </div>
+</div>
+</a>

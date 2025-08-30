@@ -1,0 +1,60 @@
+.thumbnail {
+    height: 225px;
+    width: 350px;
+    object-fit: cover;
+
+    border: 2px;
+    border-style: dotted;
+    border-color: #181818;
+    border-radius: 20px;
+}
+
+#center-div {
+    min-width: 500px;
+    max-width: 800px;
+    text-align: left;
+    margin: auto
+}
+
+.article-header {
+    display: flex;
+    width: 100%;
+}
+
+.article-desc {
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    gap: 10px;
+    justify-content: space-between;
+
+    width: 350px;
+    height: fit-content;
+}
+
+.article-context {
+    margin: 8px 0;
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    height: 250;
+    width: 350px;
+}
+
+.article-card {
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    gap: 0px;
+    justify-content: space-between;
+
+    height: fit-content;
+}

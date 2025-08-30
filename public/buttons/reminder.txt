@@ -1,0 +1,5 @@
+to make web buttons and stuff use this
+
+<a href="https://astro.build/">
+    <img src="/buttons/astro.png" width="88" height="31" />
+</a>

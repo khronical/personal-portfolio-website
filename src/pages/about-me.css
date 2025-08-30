@@ -5,6 +5,15 @@
     margin: auto
 }
 
+.web-buttons {
+    display: flex;
+    gap: 25px;
+
+    flex-direction: row;
+
+    
+}
+
 .container {
     display: block;
 
