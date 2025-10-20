@@ -1,16 +1,14 @@
 ---
 title: Iteration 6
 date: 2025-08-15
-tags:
-  - astro
-  - obsidian
+tags: [astro, obsidian]
 description: My website has gone through 5 major redesigns and counting. I present to you, version 6.
 ---
 After about a year, I have finally thought to make a genuine journal, or blog that I can edit! Thank god, now I can yap all I want about whatever I want.
 
 Anyways,
 
-The main purpose of this new iteration was because my old website desperately needed a rework from the ground up to actually be somewhat maintainable. That is where I decided to finally pick up learning the <u>**Astro**</u> framework after planning to for atleast ***ONE AND A HALF YEARS***.
+The main purpose of this new iteration was because my old website desperately needed a rework from the ground up to actually be somewhat maintainable. That is where I decided to finally pick up learning the <u>**Astro**</u> framework after planning to for at least ***ONE AND A HALF YEARS***.
 
 It surprisingly wasn't that bad, except for making this blog collection because I had never worked with *Typescript* in my life. Thankfully I managed to figure out that it was an issue with how I was trying to connect *Obsidian* and the collections. 
 

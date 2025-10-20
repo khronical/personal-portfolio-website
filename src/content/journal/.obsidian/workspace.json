@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "81ffa0d154f530af",
+        "id": "f9597cecec74eade",
         "type": "tabs",
         "children": [
           {
-            "id": "57cae19a33ca2242",
+            "id": "ff4b55c29152c21e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -162,7 +162,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "57cae19a33ca2242",
+  "active": "ff4b55c29152c21e",
   "lastOpenFiles": [
     "iteration-6-release.md",
     "create a link.md"
